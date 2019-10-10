@@ -1,8 +1,9 @@
-/* In dieser Datei werden Features des Frameworks zugeschaltet.
-   True = Aktiviert, False = deaktiviert
-   Die Konfiguration der Features wird im Ordner RR_Commons_FeatureKonfiguration vorgenommen.
-##############################################################################################*/
-
+/*  In dieser Datei werden Features des Frameworks zugeschaltet.
+*	true = Aktiviert, false = deaktiviert
+*	Anmerkung: Läuft unabhängig der Funkgerätvergabe nach Rang.
+*	Die Konfiguration der Features wird im Ordner RR_Commons_FeatureKonfiguration vorgenommen.
+* =============================================================================================
+*#############################################################################################*/
 
 
 
