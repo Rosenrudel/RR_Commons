@@ -1,3 +1,10 @@
+/*#################################################*
+
+		NUR  NACH ABSPRACHE EDITIEREN
+		
+/*################################################*/
+
+
 // ACE Benutzeroberfläche
 force force ace_ui_allowSelectiveUI = false;
 force force ace_ui_ammoCount = false;
