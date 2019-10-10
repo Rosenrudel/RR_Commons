@@ -1,5 +1,5 @@
 /*  ACRE Funkgeräte
-*	Eine Liste mit Einheiten, die beim Spawn das jeweilige Funkgerät auf jeden Fall bekommen sollen
+*	Eine Liste mit Einheiten, die beim Spawn das jeweilige Funkgerät auf jeden Fall bekommen sollen.
 *	Anmerkung: Läuft unabhängig der Funkgerätvergabe nach Rang.
 *	Beispiel: RR_commons_acre_unitsWith148 	= [Player1, Player2, Hubert...]
 * ==================================================================================================================================*/
