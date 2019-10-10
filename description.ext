@@ -1,0 +1,29 @@
+// # Szenario Einstellungen ---------------Unbedingt anpassen! ----------------#
+author = "DeinName";
+onLoadName = "MissionsÜberschrift";
+loadScreen = "";
+onLoadMission = "KurzeBeschreibungWährendDesLadensDerMission";
+overviewText = "KurzeBeschreibungFürÜbersichtImServerBeimAuswählenDerMission";
+gameType = COOP;
+minPlayers = 1;
+maxPlayers = MISSIONPLAYERS + 1;
+
+// #############################################################################
+/* # RR_Commons Einstellungen -------- Nicht genutztes Auskommentieren -------*/
+/* # Medizin Level: ----------------------------------------------------------*/
+
+// #define LEICHT
+#define STANDARD
+// #define MILSIM
+
+
+// # Text-Chat an/aus schalten: -----------------------------------------------#
+#define DISABLE_CHAT_CHANNELS
+
+// # Ungeslottete Spieler-KI deaktivieren? ------------------------------------#
+#define NO_AI
+
+// #############################################################################
+// # NICHT ÄNDERN ------------------------------------------------------------#
+#include "RR_Commons\configuration\settings.hpp"
+// #############################################################################
