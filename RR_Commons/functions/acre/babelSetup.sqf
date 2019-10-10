@@ -2,7 +2,7 @@
 *	Author: LAxemann
 *
 *	Desc: 
-*   Sofern Babel aktiviert ist, stellt vergibt das Script die definierten Sprachen an Spieler.
+*   Sofern Babel aktiviert ist, vergibt das Script die definierten Sprachen an Spieler.
 *	Konfigurierbar via "RR_Commons_FeatureKonfiguration\acre_funkgeraete.sqf"
 *
 *	Params:
