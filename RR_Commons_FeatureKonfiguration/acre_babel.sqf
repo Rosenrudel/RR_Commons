@@ -1,6 +1,8 @@
-/* Hier werden die Sprachen für das BABEL-Feature definiert. 
-/* Es können auch mehrere Sprachen definiert werden, z.B: RR_commons_acre_BLUFORSprachen = [west, "BLUFOR-Sprache", "Russisch"];
-/* Wichtig ist, dass der erste Eintrag der jeweiligen Spalte (west, east etc.) erhalten bleibt! */
+/*  ACRE Babel
+*	Hier werden die Sprachen für das BABEL-Feature definiert. 
+*	Es können auch mehrere Sprachen definiert werden, z.B: RR_commons_acre_BLUFORSprachen = [west, "BLUFOR-Sprache", "Russisch"];
+*	Wichtig ist, dass der erste Eintrag der jeweiligen Spalte (west, east etc.) erhalten bleibt!
+* ==================================================================================================================================*/
 
 
 /* Definition der verwendeten Sprachen. Es können theoretisch beliebig viele erstellt werden.
