@@ -12,11 +12,15 @@
 ["GF","GREENFOR-Sprache"] 	call acre_api_fnc_babelAddLanguageType;
 ["CV","Zivil-Sprache"] 		call acre_api_fnc_babelAddLanguageType;
 
+
+
 /* Welche Fraktion spricht welche Sprache? Hier werden die Kürzel von oben verwendet.*/
 RR_commons_acre_languagesBLUFOR   = ["BF"];
 RR_commons_acre_languagesREDFOR   = ["RF"];
 RR_commons_acre_languagesGREENFOR = ["GF","CV"]; // <- GREENFOR können also ihre eigene und die Zivilsprache
 RR_commons_acre_languagesCivs 	  = ["CV"];
+
+
 
 /* Welche Personen sollen individuelle Sprachkenntnisse bekommen?
    Beispiel:

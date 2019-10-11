@@ -1,0 +1,10 @@
+0.995
+12.10.2019
+Added: Teleport-Zusatzfeature. (Objekte können als Teleportstationen ausgewiesen werden).
+Added: RR_commons_core_fnc_isVehicleEmpty, eine Funktion, die angibt, ob ein Fahrzeug vollbesetzt ist.
+Added: Interne Struktur für den Umgang mit Dialogen. Im RR_Commons Ordner gibt es nun den Unterordner "dialoge"
+Tweaked: Kommentierung, Formatierung
+
+0.99
+10.10.2019
+- Kompletter Rewrite von LAxemann

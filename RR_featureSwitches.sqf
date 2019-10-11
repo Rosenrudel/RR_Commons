@@ -18,6 +18,11 @@ RR_commons_acre_autoRadios = true;
 RR_commons_acre_babel = false;
 
 
+/* Teleport *****************************************************/
+/* Ermöglicht Verwendung von Teleportern (z.B. bei Disconnects) */
+RR_commons_teleport = true;
+
+
 /* DynamicViewdistance ******************************************/
 /* Sichtweiten und Terrainsmoothing-Switching in Luftfahrzeugen */
 RR_commons_dynamicViewdistance = true;
@@ -70,8 +75,12 @@ RR_commons_dynamicViewdistance = true;
 /* !! AB HIER NICHT MEHR EDITIEREN !! *//******************************************/
 /* !! AB HIER NICHT MEHR EDITIEREN !! */
 #include "RR_Commons_FeatureKonfiguration\acre_funkgeraete.sqf"
+#include "RR_Commons_FeatureKonfiguration\dynamicViewdistance.sqf"
+
 if (RR_commons_acre_babel) then {
 	#include "RR_Commons_FeatureKonfiguration\acre_babel.sqf"
 };
-#include "RR_Commons_FeatureKonfiguration\dynamicViewdistance.sqf"
 
+if (RR_commons_teleport) then {
+	#include "RR_Commons_FeatureKonfiguration\teleport.sqf"
+};

@@ -7,3 +7,9 @@ if (RR_commons_dynamicViewdistance) then {[{
 /* ACRE */
 call RR_commons_acre_fnc_babelSetup;
 call RR_commons_acre_fnc_addRadios;
+
+/* Teleporter */
+if (RR_commons_teleport) then {
+	RR_commons_teleport_canTeleport  = true;
+	call RR_commons_teleport_fnc_addAction
+};
