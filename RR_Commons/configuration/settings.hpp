@@ -34,5 +34,3 @@ respawnDelay = 20;
 respawnDialog = 1;
 respawnOnStart = 0;
 saving = 0;
-
-cba_settings_hasSettingsFile = 1;
