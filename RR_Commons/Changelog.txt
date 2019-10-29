@@ -1,3 +1,7 @@
+0.997
+29.102.19
+Eine leere CBA-Settings Datei wurde hinzugefügt.
+
 0.995
 12.10.2019
 Added: Teleport-Zusatzfeature. (Objekte können als Teleportstationen ausgewiesen werden).
