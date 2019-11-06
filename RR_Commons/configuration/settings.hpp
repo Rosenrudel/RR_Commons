@@ -1,21 +1,3 @@
-RR_Commons_Version = 0.97;
-
-
-class ACE_Settings {
-  #ifdef LEICHT
-        #include "medicSettings\basics.hpp"
-        #include "medicSettings\leicht.hpp"
-  #endif
-  #ifdef STANDARD
-        #include "medicSettings\basics.hpp"
-        #include "medicSettings\standard.hpp"
-  #endif
-  #ifdef MILSIM
-        #include "medicSettings\basics.hpp"
-        #include "medicSettings\milsim.hpp"
-  #endif
-};
-
 #ifdef NO_AI
     disabledAI = 1;
 #endif

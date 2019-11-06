@@ -25,7 +25,7 @@ RR_commons_teleport = true;
 
 /* DynamicViewdistance ******************************************/
 /* Sichtweiten und Terrainsmoothing-Switching in Luftfahrzeugen */
-RR_commons_dynamicViewdistance = true;
+RR_commons_dynamicViewdistance = false;
 
 
 

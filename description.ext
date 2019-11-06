@@ -1,5 +1,3 @@
-#include "RR_Commons\dialoge\dialoge.hpp"
-
 // # Szenario Einstellungen ---------------Unbedingt anpassen! ----------------#
 author = "DeinName";
 onLoadName = "MissionsÜberschrift";
