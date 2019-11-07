@@ -30,7 +30,6 @@ force force ace_medical_menu_maxRange = 3;
 force force ace_medical_menuTypeStyleSelf = true;
 force force ace_medical_moveUnitsFromGroupOnUnconscious = false;
 force force ace_medical_painCoefficient = 0.7;
-force force ace_medical_painEffectType = 0;
 force force ace_medical_painIsOnlySuppressed = true;
 force force ace_medical_playerDamageThreshold = 1.2;
 force force ace_medical_preventInstaDeath = true;
