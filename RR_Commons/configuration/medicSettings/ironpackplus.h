@@ -27,7 +27,6 @@ force force ace_medical_medicSetting_basicEpi = 1;
 force force ace_medical_medicSetting_PAK = 1;
 force force ace_medical_medicSetting_SurgicalKit = 1;
 force force ace_medical_menu_maxRange = 3;
-force force ace_medical_menu_openAfterTreatment = true;
 force force ace_medical_menuTypeStyleSelf = true;
 force force ace_medical_moveUnitsFromGroupOnUnconscious = false;
 force force ace_medical_painCoefficient = 0.9;
