@@ -9,12 +9,6 @@ gameType = COOP;
 
 // #############################################################################
 /* # RR_Commons Einstellungen -------- Nicht genutztes Auskommentieren -------*/
-/* # Medizin Level: ----------------------------------------------------------*/
-
-// #define LEICHT
-#define STANDARD
-// #define MILSIM
-
 
 // # Text-Chat an/aus schalten: -----------------------------------------------#
 #define DISABLE_CHAT_CHANNELS
