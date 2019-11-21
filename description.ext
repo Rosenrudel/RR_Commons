@@ -5,7 +5,7 @@
 */
 /* Beschreibungen, Ladebilder etc. */
 author = "DeinName";
-briefingName = "RR_CO20_Beispielmissionsname_1v0";
+briefingName = "RR CO20 Beispielmissionsname 1.0";
 onLoadName = "MissionsÜberschrift";
 loadScreen = "";
 onLoadMission = "KurzeBeschreibungWährendDesLadensDerMission";
