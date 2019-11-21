@@ -1,23 +1,32 @@
-// # Szenario Einstellungen ---------------Unbedingt anpassen! ----------------#
+/*
+	Diese Datei dient der Definition von Dingen wie Ladebildschirmen und
+	Missionsnamen. Zudem dient sie als erweiterter Arm der A3-Konfiguration,
+	sodass hier auch neue Sounds, Menüs etc. definiert werden können.
+*/
+/* Beschreibungen, Ladebilder etc. */
 author = "DeinName";
 briefingName = "Name der Mission in der Missionsauswahl";
 onLoadName = "MissionsÜberschrift";
 loadScreen = "";
 onLoadMission = "KurzeBeschreibungWährendDesLadensDerMission";
 overviewText = "KurzeBeschreibungFürÜbersichtImServerBeimAuswählenDerMission";
-gameType = COOP;
+gameType = COOP; (https://community.bistudio.com/wiki/Multiplayer_Game_Types)
 
+/* Ab hier nur editieren, wenn Du ganz genau weißt, was Du machst! ;) */
+disabledAI = 1;
+disableChannels[] = {0,1,2,5};
+enableDebugConsole = 1;
+respawn = 3;
+respawnTemplate[] = {"ace_spectator", "menu_inventory"};
+respawnButton = 0;
+respawnDelay = 20;
+respawnDialog = 1;
+respawnOnStart = 0;
+saving = 0;
 
-// #############################################################################
-/* # RR_Commons Einstellungen -------- Nicht genutztes Auskommentieren -------*/
+/* Niemals löschen! */
+cba_settings_hasSettingsFile = 1;
+/**************************************************
+         Ab hier Raum für eigenen Inhalt
+**************************************************/
 
-// # Text-Chat an/aus schalten: -----------------------------------------------#
-#define DISABLE_CHAT_CHANNELS
-
-// # Ungeslottete Spieler-KI deaktivieren? ------------------------------------#
-#define NO_AI
-
-// #############################################################################
-// # NICHT ÄNDERN ------------------------------------------------------------#
-#include "RR_Commons\configuration\settings.hpp"
-// #############################################################################

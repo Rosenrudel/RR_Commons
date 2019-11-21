@@ -14,21 +14,16 @@
   M E D I C S Y S T E M
   Basis 	= Einfach, Bandage, Morphi, Epi
   IronPack 	= Unser Standard. 
-  IronPack+ = MilSim, Baby.Endheilung nur im Lazarett.
- */
+  IronPack+ = MilSim, Baby.Endheilung nur im Lazarett. */
 //#define RR_MEDICSYSTEM_BASIS
 #define RR_MEDICSYSTEM_IRONPACK
 // #define RR_MEDICSYSTEM_IRONPACKPLUS
-
-
 
 
 /*******************************
   L O G I S T I K S Y S T E M */
 #define RR_LOGISTIKSYSTEM_STANDARD
 // #define RR_LOGISTIKSYSTEM_ERWEITERT
-
-
 
 
 /**********************
@@ -50,39 +45,7 @@ force force acex_field_rations_enabled = false;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**********************
- !! NICHT LÖSCHEN !! 
-**********************/
-#include "RR_Commons\configuration\CBA_Settings.h"
+/*******************************************
+ !! AB HIER NICHT LÖSCHEN ODER EDITIEREN !! 
+*******************************************/
+#include "\RR_commons_resources\modKonfigurationsTemplates\CBA_Settings.h"

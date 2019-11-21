@@ -1,11 +1,8 @@
 /*  In dieser Datei werden Features des Frameworks zugeschaltet.
 *	true = Aktiviert, false = deaktiviert
-*	Anmerkung: Läuft unabhängig der Funkgerätvergabe nach Rang.
 *	Die Konfiguration der Features wird im Ordner RR_Commons_FeatureKonfiguration vorgenommen.
 * =============================================================================================
 *#############################################################################################*/
-
-
 
 
 /* ACRE Funkgeraete *********************************************/
@@ -36,11 +33,9 @@ RR_commons_dynamicViewdistance = false;
 /* !! AB HIER NICHT MEHR EDITIEREN !! */
 #include "RR_Commons_FeatureKonfiguration\acre_funkgeraete.sqf"
 #include "RR_Commons_FeatureKonfiguration\dynamicViewdistance.sqf"
-
 if (RR_commons_acre_babel) then {
 	#include "RR_Commons_FeatureKonfiguration\acre_babel.sqf"
 };
-
 if (RR_commons_teleport) then {
 	#include "RR_Commons_FeatureKonfiguration\teleport.sqf"
 };

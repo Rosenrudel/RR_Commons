@@ -21,5 +21,5 @@ player createDiaryRecord ["Diary", [
 
 player createDiaryRecord ["Diary", [
     "Situation",
-    "Wir befinden uns in der Situation das wir ein Event bauen wollen!."
+    "Als Beispiel wird hierbei unsere Situation dargestellt."
 ]];
