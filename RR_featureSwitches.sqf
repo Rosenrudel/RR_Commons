@@ -7,6 +7,7 @@
 
 
 
+
 /* ACRE Funkgeraete *********************************************/
 /* Auto-Vergabe von Funkgeräten an passende Positionen und Ränge*/
 /* Gruppenführer = 148er, Rang "Captain" und aufwärts: 117F *****/
@@ -26,47 +27,6 @@ RR_commons_teleport = true;
 /* DynamicViewdistance ******************************************/
 /* Sichtweiten und Terrainsmoothing-Switching in Luftfahrzeugen */
 RR_commons_dynamicViewdistance = false;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
