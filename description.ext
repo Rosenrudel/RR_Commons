@@ -1,6 +1,6 @@
 // # Szenario Einstellungen ---------------Unbedingt anpassen! ----------------#
 author = "DeinName";
-briefingName = "Name der Mission in der Missionsauswahl"
+briefingName = "Name der Mission in der Missionsauswahl";
 onLoadName = "MissionsÜberschrift";
 loadScreen = "";
 onLoadMission = "KurzeBeschreibungWährendDesLadensDerMission";
