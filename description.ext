@@ -10,7 +10,7 @@ onLoadName = "MissionsÜberschrift";
 loadScreen = "";
 onLoadMission = "KurzeBeschreibungWährendDesLadensDerMission";
 overviewText = "KurzeBeschreibungFürÜbersichtImServerBeimAuswählenDerMission";
-gameType = COOP; (https://community.bistudio.com/wiki/Multiplayer_Game_Types)
+gameType = COOP; // (https://community.bistudio.com/wiki/Multiplayer_Game_Types)
 
 /* Ab hier nur editieren, wenn Du ganz genau weißt, was Du machst! ;) */
 disabledAI = 1;
