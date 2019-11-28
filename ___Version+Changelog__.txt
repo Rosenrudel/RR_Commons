@@ -1,6 +1,7 @@
 /* Zusatzfeatures werden im Editor unter "Attribute" eingestellt! */
 
 1.0
+28.11.2019
 Neu: Die Konfiguration des Frameworks wird nun im Edtor vorgenommen. Neue Features werden damit über den Launcher gezogen.
 Neu: Man kann einstellen, ob auch Zivilisten automatisch Funkgeräte zugewiesen bekommen.
 Entfernt: Viele Features rund um ACRE Babel. Es ist nach wie vor Möglich, allen Fraktionen eine eigene Sprache zu geben und zu benennen. Bei der komplexen Thematik ist es besser, missionsspezifische Lösungen zu schreiben.
