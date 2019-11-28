@@ -17,7 +17,6 @@ disabledAI = 1;
 disableChannels[] = {0,1,2,5};
 enableDebugConsole = 1;
 respawn = 3;
-respawnTemplate[] = {"ace_spectator", "menu_inventory"};
 respawnButton = 0;
 respawnDelay = 20;
 respawnDialog = 1;

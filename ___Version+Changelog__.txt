@@ -1,3 +1,9 @@
+1.0
+Neu: Die Konfiguration des Frameworks wird nun im Edtor vorgenommen. Neue Features werden damit über den Launcher gezogen.
+Neu: Man kann einstellen, ob auch Zivilisten automatisch Funkgeräte zugewiesen bekommen.
+Entfernt: Viele Features rund um ACRE Babel. Es ist nach wie vor Möglich, allen Fraktionen eine eigene Sprache zu geben und zu benennen. Bei der komplexen Thematik ist es besser, missionsspezifische Lösungen zu schreiben.
+Entfernt: Briefing.sqf (Wird in der Missionsbau-Kurzanleitung behandelt werden)
+
 0.99995
 21.11.2019
 Neu: "briefingName" zur Description.ext. Definiert den in der Lobby sichtbaren Namen.
