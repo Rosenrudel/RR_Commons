@@ -1,5 +1,13 @@
 /* Zusatzfeatures werden im Editor unter "Attribute" eingestellt! */
 
+1.05
+29.11.2019
+Neu: Sichtweiten-Menü (Einstellbar via Editor).
+Neu: Einstellung, die JIP-Spielern für 3 Minuten den Teleporter ins Mausradmenü gibt.
+Neu: Für ACRE Babel können Übersetzer eingestellt werden.
+Neu: Weitere Erklärungen
+Fixed: Fehlerhafte Erklärungen
+
 1.0
 28.11.2019
 Neu: Die Konfiguration des Frameworks wird nun im Edtor vorgenommen. Neue Features werden damit über den Launcher gezogen.
