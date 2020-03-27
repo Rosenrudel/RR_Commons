@@ -14,7 +14,7 @@ gameType = COOP; // (https://community.bistudio.com/wiki/Multiplayer_Game_Types)
 
 /* Ab hier nur editieren, wenn Du ganz genau weißt, was Du machst! ;) */
 disabledAI = 1;
-disableChannels[] = {0,1,2,5,6};
+disableChannels[] = {0,2,5,6};
 enableDebugConsole = 1;
 respawn = 3;
 respawnButton = 0;
