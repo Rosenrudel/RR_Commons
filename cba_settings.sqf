@@ -1,8 +1,8 @@
 /*
-* In dieser Datei können die serverseitigen CBA-Settings überschrieben werden.
+* In dieser Datei kÃ¶nnen die serverseitigen CBA-Settings Ã¼berschrieben werden.
 * Bei mehreren Optionen: Eine un-auskommentiert lassen.
 *
-* Beispiel: 
+* Beispiel:
 * Force Force ace_advanced_fatigue_performanceFactor = 2;
 *
 * Unsere serverseitigen Rosenrudel Settings findet ihr in der @RR_CBASettings.
@@ -13,7 +13,7 @@
 /**************************
   M E D I C S Y S T E M
   Basis 	= Einfach, Bandage, Morphi, Epi
-  IronPack 	= Unser Standard. 
+  IronPack 	= Unser Standard.
   IronPack+ = MilSim, Baby.Endheilung nur im Lazarett. */
 //#define RR_MEDICSYSTEM_BASIS
 #define RR_MEDICSYSTEM_IRONPACK
@@ -29,9 +29,9 @@
 /**********************
   S O N S T I G E S  */
 // ACE Explosives
-force force ace_explosives_explodeOnDefuse = true;		// Können Sprengsätze beim Entschärfen zufällig hochgehen?
-force force ace_explosives_punishNonSpecialists = true;	// Explosionswahrscheinlichkeit bei Nicht-Spezialisten größer?
-force force ace_explosives_requireSpecialist = false;   // Können Sprengsätze nur von Spezialisten entschärft werden?
+force force ace_explosives_explodeOnDefuse = true;		// KÃ¶nnen SprengsÃ¤tze beim EntschÃ¤rfen zufÃ¤llig hochgehen?
+force force ace_explosives_punishNonSpecialists = true;	// Explosionswahrscheinlichkeit bei Nicht-Spezialisten grÃ¶ÃŸer?
+force force ace_explosives_requireSpecialist = false;   // KÃ¶nnen SprengsÃ¤tze nur von Spezialisten entschÃ¤rft werden?
 
 // ACE Feldrationen an? Mehr Infos: https://ace3mod.com/wiki/frameworkx/field-rations-framework.html
 force force acex_field_rations_enabled = false;
@@ -46,6 +46,6 @@ force force acex_field_rations_enabled = false;
 
 
 /*******************************************
- !! AB HIER NICHT LÖSCHEN ODER EDITIEREN !! 
+ !! AB HIER NICHT LÃ–SCHEN ODER EDITIEREN !!
 *******************************************/
 #include "\RR_commons_resources\modKonfigurationsTemplates\CBA_Settings.h"
