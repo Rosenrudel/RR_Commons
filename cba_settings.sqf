@@ -18,6 +18,7 @@
 //#define RR_MEDICSYSTEM_BASIS
 #define RR_MEDICSYSTEM_IRONPACK
 // #define RR_MEDICSYSTEM_IRONPACKPLUS
+// #define RR_MEDICSYSTEM_HARDCORE
 
 
 /*******************************

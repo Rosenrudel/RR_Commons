@@ -1,4 +1,8 @@
 /* Zusatzfeatures werden im Editor unter "Attribute" eingestellt! */
+
+1.07
+Neu: "Hardcore" Medic-Settings
+
 1.06
 Tweak: Disablechannels 6 hinzugekommen, blendet Servernachrichten aus.
 
