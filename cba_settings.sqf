@@ -37,6 +37,9 @@ force force ace_explosives_requireSpecialist = false;		// Können Sprengsätze n
 // ACE Feldrationen an? Mehr Infos: https://ace3mod.com/wiki/frameworkx/field-rations-framework.html
 force force acex_field_rations_enabled = false;
 
+// Advanced Ballistics - false = Aus, true = An
+force ace_advanced_ballistics_enabled = false;
+
 
 
 
