@@ -3,27 +3,41 @@
 	Missionsnamen. Zudem dient sie als erweiterter Arm der A3-Konfiguration,
 	sodass hier auch neue Sounds, Menüs etc. definiert werden können.
 */
-/* Beschreibungen, Ladebilder etc. */
-author = "DeinName";
-briefingName = "RR CO20 Beispielmissionsname 1.0";
-onLoadName = "MissionsÜberschrift";
-loadScreen = "";
-onLoadMission = "KurzeBeschreibungWährendDesLadensDerMission";
-overviewText = "KurzeBeschreibungFürÜbersichtImServerBeimAuswählenDerMission";
-gameType = COOP; // (https://community.bistudio.com/wiki/Multiplayer_Game_Types)
+/* Beschreibungen, Ladebilder etc. Diese sollten alle ersetzte werden! */
+Author = "DeinName";
+IntelBriefingName = "RR CO20 Beispielmission v1"
+OnLoadName = "Überschrift über Ladebild";
+OnLoadMission = "Untertitel unter Ladebild";
+OverviewPicture = "BildPfadFürMissionsbild";
+OverviewText = "Eine Beschreibung deiner Mission die in der Missionsauswahl angezeigt wird";
+
+/* Optionen für Intros */
+// onLoadIntroTime = 0; //Soll während des Ladens des Intros die Uhrzeit und das Datum angezeigt werden? BooleanWert 0=disabled|1=enabled
+// onLoadIntro = "NachrichtDieWährendDesLadensEinesIntrosAngezeigtWird";
+
+class Header
+{
+	GameType =  Coop;	// https://community.bistudio.com/wiki/Multiplayer_Game_Types
+	MinPlayers =  1;	// Spielbar ab n Spielern auf dem Server
+	// maxPlayers = 10;	// Spielbar bis n Spielern auf dem Server
+};
 
 /* Ab hier nur editieren, wenn Du ganz genau weißt, was Du machst! ;) */
-disabledAI = 1;
-disableChannels[] = {0,2,5,6};
-enableDebugConsole = 1;
-respawn = 3;
-respawnButton = 0;
-respawnDelay = 20;
-respawnDialog = 1;
-respawnOnStart = 0;
-saving = 0;
+DisabledAI = 1;
+DisableChannels[] = {0, 2, 3, 4, 5};
+EnableDebugConsole = 1;
 
-/* Niemals löschen! */
+/* Siehe intern: tut_ace-spectator */
+Respawn = 3;
+RespawnButton = 0;
+RespawnDelay = 20;
+RespawnDialog = 0;
+RespawnOnStart = 0;
+
+/* Soll die Mission speicherbar sein - NEIN NIE */
+Saving = 0;
+
+/* Niemals löschen sonst keine modKonfigs! */
 cba_settings_hasSettingsFile = 1;
 /**************************************************
 		Ab hier Raum für eigenen Inhalt
