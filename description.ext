@@ -24,14 +24,14 @@ class Header
 
 /* Ab hier nur editieren, wenn Du ganz genau weißt, was Du machst! ;) */
 DisabledAI = 1;
-DisableChannels[] = {0, 2, 3, 4, 5};
+DisableChannels[] = {0, 2, 5, 6};
 EnableDebugConsole = 1;
 
 /* Siehe intern: tut_ace-spectator */
 Respawn = 3;
 RespawnButton = 0;
 RespawnDelay = 20;
-RespawnDialog = 0;
+RespawnDialog = 1;
 RespawnOnStart = 0;
 
 /* Soll die Mission speicherbar sein - NEIN NIE */

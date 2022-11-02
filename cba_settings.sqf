@@ -32,14 +32,14 @@ Mehr Infos: https// github.com/CBATeam/CBA_A3/wiki/CBA-Settings-System
 */
 // ACE Explosives
 force force ace_explosives_explodeOnDefuse = true;// Können Sprengsätze beim Entschärfen zufällig hochgehen?
-force force ace_explosives_punishNonSpecialists = true;// Explosionswahrscheinlichkeit bei Nicht-Spezialisten größer?
+force force ace_explosives_punishNonSpecialists = false;// Explosionswahrscheinlichkeit bei Nicht-Spezialisten größer?
 force force ace_explosives_requireSpecialist = false;// Können Sprengsätze nur von Spezialisten entschärft werden?
 
 // ACE Feldrationen an? Mehr Infos: https// ace3mod.com/wiki/frameworkx/field-rations-framework.html
 force force acex_field_rations_enabled = false;
 
 // Advanced Ballistics - false = Aus, true = An
-force ace_advanced_ballistics_enabled = true;
+force ace_advanced_ballistics_enabled = false;
 
 /**********************************************
 	!! AB HIER NICHT LÖSCHEN ODER EDITIEREN !!
