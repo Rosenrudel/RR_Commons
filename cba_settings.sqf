@@ -37,7 +37,7 @@ force force ace_explosives_explodeOnDefuse = true;			// Können Sprengsätze bei
 force force ace_explosives_punishNonSpecialists = true;		// Explosionswahrscheinlichkeit bei Nicht-Spezialisten größer?
 force force ace_explosives_requireSpecialist = false;		// Können Sprengsätze nur von Spezialisten entschärft werden?
 
-// ACE Feldrationen an? Mehr Infos: https://ace3mod.com/wiki/frameworkx/field-rations-framework.html
+// ACE Feldrationen an? Mehr Infos: https://ace3.acemod.org/wiki/framework/field-rations-framework.html
 force force acex_field_rations_enabled = false;
 
 // Advanced Ballistics - false = Aus, true = An
