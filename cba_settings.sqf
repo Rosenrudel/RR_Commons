@@ -1,12 +1,12 @@
 /*
-	in dieser Datei können die serverseitigen CBA-Settings überschrieben werden.
+	In dieser Datei können die serverseitigen CBA-Settings überschrieben werden.
 	Bei mehreren Optionen: Eine un-auskommentiert lassen.
 	
 	Beispiel:
 	Force Force ace_advanced_fatigue_performanceFactor = 2;
 	
 	Unsere serverseitigen Rosenrudel Settings findet ihr in der @RR_CBASettings.
-Mehr Infos: https// github.com/CBATeam/CBA_A3/wiki/CBA-Settings-System
+	Mehr Infos: https://github.com/CBATeam/CBA_A3/wiki/CBA-Settings-System
 */
 
 /*
@@ -16,6 +16,7 @@ Mehr Infos: https// github.com/CBATeam/CBA_A3/wiki/CBA-Settings-System
 	IronPack+ = Endheilung nur im Lazarett.
 	Hardcore = Tödliche Wunden töten sofort (MilSim)
 */
+
 // #define RR_MEDICSYSTEM_BASIS
 #define RR_MEDICSYSTEM_IRONPACK
 // #define RR_MEDICSYSTEM_IRONPACKPLUS
@@ -30,12 +31,13 @@ Mehr Infos: https// github.com/CBATeam/CBA_A3/wiki/CBA-Settings-System
 /*
 	S O N S T I G E S
 */
-// ACE Explosives
-force force ace_explosives_explodeOnDefuse = true;// Können Sprengsätze beim Entschärfen zufällig hochgehen?
-force force ace_explosives_punishNonSpecialists = false;// Explosionswahrscheinlichkeit bei Nicht-Spezialisten größer?
-force force ace_explosives_requireSpecialist = false;// Können Sprengsätze nur von Spezialisten entschärft werden?
 
-// ACE Feldrationen an? Mehr Infos: https// ace3mod.com/wiki/frameworkx/field-rations-framework.html
+// ACE Explosives
+force force ace_explosives_explodeOnDefuse = true;			// Können Sprengsätze beim Entschärfen zufällig hochgehen?
+force force ace_explosives_punishNonSpecialists = true;		// Explosionswahrscheinlichkeit bei Nicht-Spezialisten größer?
+force force ace_explosives_requireSpecialist = false;		// Können Sprengsätze nur von Spezialisten entschärft werden?
+
+// ACE Feldrationen an? Mehr Infos: https://ace3mod.com/wiki/frameworkx/field-rations-framework.html
 force force acex_field_rations_enabled = false;
 
 // Advanced Ballistics - false = Aus, true = An
