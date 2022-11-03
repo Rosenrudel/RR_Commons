@@ -1,5 +1,8 @@
 /* Zusatzfeatures werden im Editor unter "Attribute" eingestellt! */
 
+1.08
+Neu: Update der description.ext auf den Stand der Biki, mehr Beschreibungen, class Header
+
 1.07
 Neu: "Hardcore" Medic-Settings
 
