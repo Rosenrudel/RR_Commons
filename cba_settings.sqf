@@ -46,4 +46,4 @@ force ace_advanced_ballistics_enabled = false;
 /**********************************************
 	!! AB HIER NICHT LÖSCHEN ODER EDITIEREN !!
 **********************************************/
-#include "\RR_commons_resources\modKonfigurationsTemplates\CBA_Settings.h"
+#include "\z\RR_commons\addons\main\modKonfigurationsTemplates\CBA_Settings.h"
