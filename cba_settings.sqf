@@ -13,13 +13,11 @@
 	M E D I C S Y S T E M
 	Basis = Einfach, Bandage, Morphi, Epi
 	IronPack = Unser Standard.
-	IronPack+ = Endheilung nur im Lazarett.
-	Hardcore = Tödliche Wunden töten sofort (MilSim)
+	Hardcore = Tödliche Wunden töten sofort und KAT (MilSim)
 */
 
 // #define RR_MEDICSYSTEM_BASIS
 #define RR_MEDICSYSTEM_IRONPACK
-// #define RR_MEDICSYSTEM_IRONPACKPLUS
 // #define RR_MEDICSYSTEM_HARDCORE
 
 /*
